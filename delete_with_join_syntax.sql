@@ -1,3 +1,8 @@
+========
+Problem 
+========
+   I want to delete data from one or more tables using JOIN syntax
+--------------------------------------------------------------------
 --Givent schema
 CREATE TABLE clients (
    client_i INT(11),
@@ -13,6 +18,10 @@ CREATE TABLE posts (
    project_id INT(11) UNSIGNED,
    PRIMARY KEY (post_id)
 );
+------------------------------------------------------------------------------------------------------------------
+========
+Solution
+========
 
 --How to delete single or multiple table data baed on JOIN syntax?
 =======================
